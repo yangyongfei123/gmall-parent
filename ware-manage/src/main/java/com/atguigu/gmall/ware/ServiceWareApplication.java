@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @ComponentScan({"com.atguigu.gmall"})
 @EnableDiscoveryClient
-@Controller
 public class ServiceWareApplication {
 
 	public static void main(String[] args) {

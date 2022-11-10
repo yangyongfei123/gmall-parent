@@ -19,9 +19,9 @@ public class PassportController {
         request.setAttribute("originUrl", originUrl);
         return "login";
     }
-
-    @PostMapping("123456")
+    @PostMapping("yyyy")
     public Result get() {
         return Result.ok();
     }
+
 }

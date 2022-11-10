@@ -14,10 +14,8 @@ public class SearchResponseVo implements Serializable {
     private List<SearchResponseTmVo> trademarkList;
     //所有商品的顶头显示的筛选属性
     private List<SearchResponseAttrVo> attrsList = new ArrayList<>();
-
     //检索出来的商品信息
     private List<Goods> goodsList = new ArrayList<>();
-
     private Long total;//总记录数
     private Integer pageSize;//每页显示的内容
     private Integer pageNo;//当前页面

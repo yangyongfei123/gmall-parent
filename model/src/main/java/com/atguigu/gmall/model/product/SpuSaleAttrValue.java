@@ -37,7 +37,7 @@ public class SpuSaleAttrValue extends BaseEntity {
 	@TableField("sale_attr_name")
 	private String saleAttrName;
 
-	// 是否是默认选中状态
+	// 是否是默认选中状态  1表示选中 0表示未选中
 //	@TableField("sale_attr_name")
 //	String isChecked;
 	@TableField(exist = false)

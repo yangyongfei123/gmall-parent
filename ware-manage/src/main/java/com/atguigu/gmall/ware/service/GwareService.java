@@ -39,5 +39,4 @@ public interface GwareService {
 
     public List<WareInfo> getWareInfoList();
 
-    public List get();
 }

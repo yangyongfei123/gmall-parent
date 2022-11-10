@@ -13,23 +13,23 @@ import java.util.Map;
  * @return
  */
 public interface GwareService {
-    public Integer  getStockBySkuId(String skuid);
+    public Integer getStockBySkuId(String skuid);
 
-    public boolean  hasStockBySkuId(String skuid, Integer num);
+    public boolean hasStockBySkuId(String skuid, Integer num);
 
     public List<WareInfo> getWareInfoBySkuid(String skuid);
 
     public void addWareInfo();
 
-    public Map<String,List<String>> getWareSkuMap(List<String> skuIdlist);
+    public Map<String, List<String>> getWareSkuMap(List<String> skuIdlist);
 
     public void addWareSku(WareSku wareSku);
 
-    public void deliveryStock(WareOrderTask taskExample) ;
+    public void deliveryStock(WareOrderTask taskExample);
 
     public WareOrderTask saveWareOrderTask(WareOrderTask wareOrderTask);
 
-    public  List<WareOrderTask>   checkOrderSplit(WareOrderTask wareOrderTask);
+    public List<WareOrderTask> checkOrderSplit(WareOrderTask wareOrderTask);
 
     public void lockStock(WareOrderTask wareOrderTask);
 
@@ -38,4 +38,6 @@ public interface GwareService {
     public List<WareSku> getWareSkuList();
 
     public List<WareInfo> getWareInfoList();
+
+    public List get();
 }

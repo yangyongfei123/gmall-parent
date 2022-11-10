@@ -72,12 +72,6 @@ public class GwareServiceImpl implements GwareService {
         return wareInfos;
     }
 
-    @Override
-    public List get() {
-        return null;
-    }
-
-
     public void addWareInfo() {
         WareInfo wareInfo = new WareInfo();
         wareInfo.setAddress("1123");
